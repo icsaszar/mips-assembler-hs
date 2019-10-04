@@ -1,0 +1,43 @@
+library:
+  source-dirs: src
+tests:
+  mips-assembler-test:
+    source-dirs: test
+    main: Spec.hs
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - mips-assembler
+    - tasty
+    - tasty-hunit
+copyright: 2019 Istvan Csaszar
+maintainer: example@example.com
+dependencies:
+- parsec
+- mtl
+- base
+- aeson
+- containers
+- bytestring
+- parseargs
+name: mips-assembler
+version: 0.1.0.0
+extra-source-files:
+- README.md
+- ChangeLog.md
+author: Istvan Csaszar
+github: icsaszar/mips-assembler
+license: BSD3
+executables:
+  mips-assembler-exe:
+    source-dirs: app
+    main: Main.hs
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - mips-assembler
+description: Configurable mips assembler

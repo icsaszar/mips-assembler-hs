@@ -1,0 +1,6 @@
+LOOP : beq $9, $0, END
+addu $8, $8, $10
+addiu $9, $9, -1
+j LOOP
+; asd
+END : xor $0, $0, $0

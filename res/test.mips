@@ -1,0 +1,16 @@
+ 		addi $5,$5,1
+ 		lw $0,$0,0 		; n <- MEM[0+0]
+ 		addi $2,$0,1	; j <- n + 1
+ L1:	slt $4,$1,$0	; if(i < n) c <- 1 else c <- 0
+		beq $4,$5,1		; if(c == 1) PC <- (PC + 2 + 2*1)
+		j END 			; else PC <- 1C endif 
+		lw $3,$1,1 		; x <- MEM[i+1]
+		andi $3,$3,1	; x <- x & 1
+		beq $3,$5,3		; if(x == 1) j ODD
+		lw $3,$1,1		; else x <- MEM[i+1]
+		sw $3,$2,0		; MEM[j] <- x
+ 		addi $2,$2,1	; j <- j + 1 endif
+ ODD:	addi $1,$1,1	; i <- i + 1
+		j L1			; PC <- 6
+ END:	sub $2,$2,$0	; j <- j - n
+		addi $2,$2,-1	; j <- j + (-1)

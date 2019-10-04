@@ -1,0 +1,202 @@
+{
+    "opcodes": [
+        {
+            "mneomic": "addi",
+            "code": "001000"
+        },
+        {
+            "mneomic": "addiu",
+            "code": "001001"
+        },
+        {
+            "mneomic": "slti",
+            "code": "001010"
+        },
+        {
+            "mneomic": "sltiu",
+            "code": "001011"
+        },
+        {
+            "mneomic": "andi",
+            "code": "001100"
+        },
+        {
+            "mneomic": "ori",
+            "code": "001101"
+        },
+        {
+            "mneomic": "xori",
+            "code": "001110"
+        },
+        {
+            "mneomic": "lw",
+            "code": "100011"
+        },
+        {
+            "mneomic": "sw",
+            "code": "101011"
+        },
+        {
+            "mneomic": "beq",
+            "code": "000100"
+        },
+        {
+            "mneomic": "bne",
+            "code": "000101"
+        },
+        {
+            "mneomic": "blez",
+            "code": "000110"
+        },
+        {
+            "mneomic": "bgtz",
+            "code": "000111"
+        },
+        {
+            "mneomic": "bltz",
+            "code": "000001"
+        },
+        {
+            "mneomic": "bgez",
+            "code": "000001"
+        },
+        {
+            "mneomic": "j",
+            "code": "000010"
+        },
+        {
+            "mneomic": "jal",
+            "code": "000011"
+        },
+        {
+            "mneomic": "add",
+            "code": "000000"
+        },
+        {
+            "mneomic": "addu",
+            "code": "000000"
+        },
+        {
+            "mneomic": "sub",
+            "code": "000000"
+        },
+        {
+            "mneomic": "subu",
+            "code": "000000"
+        },
+        {
+            "mneomic": "and",
+            "code": "000000"
+        },
+        {
+            "mneomic": "or",
+            "code": "000000"
+        },
+        {
+            "mneomic": "xor",
+            "code": "000000"
+        },
+        {
+            "mneomic": "nor",
+            "code": "000000"
+        },
+        {
+            "mneomic": "slt",
+            "code": "000000"
+        },
+        {
+            "mneomic": "sltu",
+            "code": "000000"
+        },
+        {
+            "mneomic": "sllv",
+            "code": "000000"
+        },
+        {
+            "mneomic": "srlv",
+            "code": "000000"
+        },
+        {
+            "mneomic": "sarv",
+            "code": "000000"
+        },
+        {
+            "mneomic": "sll",
+            "code": "000000"
+        },
+        {
+            "mneomic": "srl",
+            "code": "000000"
+        },
+        {
+            "mneomic": "sra",
+            "code": "000000"
+        }
+    ],
+    "alu_functions": [
+        {
+            "name" : "add",
+            "code" : "100000"
+        },
+        {
+            "name" : "addu",
+            "code" : "100001"
+        },
+        {
+            "name" : "sub",
+            "code" : "100010"
+        },
+        {
+            "name" : "subu",
+            "code" : "100011"
+        },
+        {
+            "name" : "and",
+            "code" : "100100"
+        },
+        {
+            "name" : "or",
+            "code" : "100101"
+        },
+        {
+            "name" : "xor",
+            "code" : "100110"
+        },
+        {
+            "name" : "nor",
+            "code" : "100111"
+        },
+        {
+            "name" : "slt",
+            "code" : "101010"
+        },
+        {
+            "name" : "sltu",
+            "code" : "101011"
+        },
+        {
+            "name" : "sllv",
+            "code" : "000100"
+        },
+        {
+            "name" : "srlv",
+            "code" : "000110"
+        },
+        {
+            "name" : "srav",
+            "code" : "000111"
+        },
+        {
+            "name" : "sll",
+            "code" : "000000"
+        },
+        {
+            "name" : "srl",
+            "code" : "000010"
+        },
+        {
+            "name" : "sra",
+            "code" : "000011"
+        }
+    ]
+}
