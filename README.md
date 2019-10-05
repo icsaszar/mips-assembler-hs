@@ -2,6 +2,10 @@
 
 Configurable mips assembler written in haskell.
 
+The main goal of this project is to make it easier for anyone who wants to implement a MIPS processor
+to write assembly code when they test their implementation, since translating assembly by hand to machine code is slow,
+hard and error-prone.
+
 ## Installation
 
 In order to build the project the `stack` build tool (usually named `haskell-stack`) is required.
@@ -23,6 +27,10 @@ stack run -- --sep res/test.mips
 ```
 mips-assembler-exe --sep res/test.mips
 ```
+
+## Changing the opcodes and alu functions
+
+You can edit the opcodes and alu functions in the `config/codes.json` file to match with your mips design.
 
 ## Testing
 
