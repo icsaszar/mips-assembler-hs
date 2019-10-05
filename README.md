@@ -1,4 +1,4 @@
-# mips-stack
+# mips-assembler-hs
 
 Configurable mips assembler written in haskell.
 
