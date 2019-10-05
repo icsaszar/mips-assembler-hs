@@ -8,7 +8,7 @@ In order to build the project `stack` is required.
 
 ```
 git clone https://github.com/icsaszar/mips-assembler-hs.git
-cd mips-assembler
+cd mips-assembler-hs
 stack build
 ```
 
