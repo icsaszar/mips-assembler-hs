@@ -26,9 +26,8 @@ name: mips-assembler
 version: 0.1.0.0
 extra-source-files:
 - README.md
-- ChangeLog.md
 author: Istvan Csaszar
-github: icsaszar/mips-assembler
+github: icsaszar/mips-assembler-hs
 license: BSD3
 executables:
   mips-assembler-exe:
