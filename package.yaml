@@ -13,7 +13,7 @@ tests:
     - tasty
     - tasty-hunit
 copyright: 2019 Istvan Csaszar
-maintainer: example@example.com
+maintainer: icsaszar@outlook.com
 dependencies:
 - parsec
 - mtl
