@@ -4,7 +4,7 @@ Configurable mips assembler written in haskell.
 
 ## Installation
 
-In order to build the project `stack` is required.
+In order to build the project the `stack` build tool (usually named `haskell-stack`) is required.
 
 ```
 git clone https://github.com/icsaszar/mips-assembler-hs.git
@@ -14,8 +14,14 @@ stack build
 
 ## Usage
 
+### Running using `stack run`
 ```
-mips-assembler-exe -s res/test.mips
+stack run -- --sep res/test.mips
+```
+
+### Running the executable directly
+```
+mips-assembler-exe --sep res/test.mips
 ```
 
 ## Testing
