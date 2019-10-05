@@ -7,14 +7,16 @@ Configurable mips assembler written in haskell.
 In order to build the project `stack` is required.
 
 ```
-git clone 
+git clone https://github.com/icsaszar/mips-assembler-hs.git
 cd mips-assembler
 stack build
 ```
 
 ## Usage
 
-
+```
+mips-assembler-exe -s res/test.mips
+```
 
 ## Testing
 
