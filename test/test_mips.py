@@ -9,7 +9,7 @@ def run_test(inputs: str):
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
         bufsize=0,
-        cwd="/home/icsaszar/Desktop/mips-stack",
+        cwd="./",
         encoding='utf-8'
     )
 
